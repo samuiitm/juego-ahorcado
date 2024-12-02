@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="estilos.css" type="text/css">
+		<script defer src="juego.js"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="subtitle">SAMUEL CAÑADAS RUIZ</div>
+        <h1 class="title">EL AHORCADO</h1>
+        <div class="box" id="box">
+			<div id="botonesAlfabeto" class="botonesAlfabeto">
+				<div class="fila1">
+					<button id="bQ">Q</button>
+					<button id="bW">W</button>
+					<button id="bE">E</button>
+					<button id="bR">R</button>
+					<button id="bT">T</button>
+					<button id="bY">Y</button>
+					<button id="bU">U</button>
+					<button id="bI">I</button>
+					<button id="bO">O</button>
+					<button id="bP">P</button>
+				</div>
+				<div class="fila2">
+					<button id="bA">A</button>
+					<button id="bS">S</button>
+					<button id="bD">D</button>
+					<button id="bF">F</button>
+					<button id="bG">G</button>
+					<button id="bH">H</button>
+					<button id="bJ">J</button>
+					<button id="bK">K</button>
+					<button id="bL">L</button>
+					<button id="bÑ">Ñ</button>
+				</div>
+				<div class="fila3">
+					<button id="bZ">Z</button>
+					<button id="bX">X</button>
+					<button id="bC">C</button>
+					<button id="bV">V</button>
+					<button id="bB">B</button>
+					<button id="bN">N</button>
+					<button id="bM">M</button>
+				</div>
+			</div>
+			<div class="terminals">
+				<div id="terminal" class="terminal"></div>
+				<div id="ahorcado" class="ahorcado"></div>
+				<button id="jugarDeNuevo" class="pushable" onclick="nuevaPartida()">
+					<span class="shadow"></span>
+					<span class="edge"></span>
+					<span class="front"> JUGAR DE NUEVO </span>
+				</button>
+			</div>
+		</div>
+	</body>
+</html>
